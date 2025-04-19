@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+</head>
+<body>
+<form dir="rtl">
+  <h2 dir="rtl">نموذج طلب توظيف</h2>
+  <fieldset>
+    <legend> معلومات المتقدم</legend>
+    
+    <label for="الاسم الكامل">الاسم الكامل</label>
+    <input id="الاسم الكامل" type="text" required><br/>
+    <br />
+    <label for="البريد الإلكتروني">البريد الإلكتروني</label>
+    <input id="البريد الإلكتروني" type="email" required><br/>
+    <br />
+     <label for="العمر"> العمر</label>
+    <input id="العمر" type="number" required placeholder="قميه رقميه يتكون من خانتين"><br/>
+    <br />
+    <label for="المسمي الوظيفي المطلوب">المسمي الوظيفي المطلوب </label>
+    <select id="المسمي الوظيفي المطلوب" name="المسمي الوظيفي المطلوب" id="">
+      <option value="1">هندسه ميكانيكا</option>
+      <option value="1">هندسه إلكترونيات</option>
+      <option value="1">هندسه مساحه</option>
+      <option value="1">مطور ويب</option>
+      <option value="1">محلل بيانات</option>
+      <option value="1">مصم قاعدة بيانات</option>
+      <option value="1">مختبرات طبيه</option>
+      <option value="1">طب جراحه</option>
+      <option value="1">طب اسنان</option>
+      <option value="1">تربيه إسلاميه</option>
+      <option value="1">تربيه جغرافيه</option>
+      <option value="1">تربيه تاريخ</option>
+    </select><br />
+    <br />
+    <label for="المهارات الإضافيه:"> المهارات الإضافيه:</label>
+    <textarea id="المهارات الإضافيه:" name="" id="" cols="30" rows="5" placeholder="أكتب مهاراتك هنا....." required></textarea><br />
+    <br />
+    <label > اختار القسم المناسب:</label><br />
+  <input id="التصميم" type="radio">
+  <label for="التصميم">التصميم</label><br/>
+  <input id="البرمجة" type="radio">
+  <label for="البرمجة">البرمجة</label><br/>
+  <input id="التسويق" type="radio">
+  <label for="التسويق">التسويق</label><br />
+  <br />
+  <button type="submit">إرسال الطلب</button>
+  </fieldset>
+</form>
+</body>
+
+</html>
